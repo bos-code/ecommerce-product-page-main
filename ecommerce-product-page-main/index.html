@@ -6,6 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="main.css">
+  <script src="/js/selector.js" defer></script>
+  <script src="/js/eventHandlers.js" defer></script>
+  <script src="/js/functions.js" defer></script>
+  <script src="/js/main.js" defer></script>
   
   <title>Frontend Mentor | E-commerce product page</title>
 
@@ -22,7 +26,7 @@
       <div class="container">
         <header>
           <nav class="navbar">
-            <section class="nav-first">
+            <div class="nav-first">
               <svg
                 class="menu-icon"
                 width="16"
@@ -58,15 +62,15 @@
                 <a href="#">About</a>
                 <a href="#">Contact</a>
               </div>
-            </section>
-            <section class="nav-second">
+            </div>
+            <div class="nav-second">
               <div class="cart">
                 <img
                   class="cart-icon"
                   src="images/icon-cart.svg"
                   alt="cart icon"
                 />
-                <div class="cart-container">
+                <div class="cart-container none">
                   <div class="cart-title">Cart</div>
                   <div class="cart-items empty">
                     <p class="cart-empty">Your cart is empty</p>
@@ -80,7 +84,7 @@
               <div class="avatar">
                 <img src="images/image-avatar.png" alt="avatar" />
               </div>
-            </section>
+            </div>
           </nav>
         </header>
   
