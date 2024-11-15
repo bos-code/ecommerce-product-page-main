@@ -313,6 +313,9 @@ body {
   align-items: center;
   gap: 15px;
 }
+.none{
+  display: none;
+}
 
 .counter {
   display: flex;
