@@ -20,7 +20,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/bos-code/ecommerce-product-page-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://ecommerce-product-page-main-virid.vercel.app/)
 
 
 - Website - [Add your name here](https://www.your-site.com)
