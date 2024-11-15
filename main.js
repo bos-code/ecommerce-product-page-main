@@ -12,6 +12,7 @@ const displayCart = function(){
   cartContainer.classList.toggle('none')
 }
 addToCartBtn.addEventListener('click', displayCart)
+cartIcon.addEventListener('click', displayCart)
 let count = 0;
 let totalCartQty = 0;
 
